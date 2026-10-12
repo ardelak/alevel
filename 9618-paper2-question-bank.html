@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cambridge 9618 Paper 2 Question Bank</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,500&family=Karla:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#17223B;--soft:#4B5670;--paper:#F3F1E7;--card:#fff;--amber:#B8791C;--deep:#8F5D12;--wash:#F1E1BE;--rule:#D8D1BC;--green:#3F7A56;--gw:#E1EEE6;--red:#9C3B2E;--rw:#F5E1DC;--sh:0 1px 2px rgba(23,34,59,.06),0 6px 20px rgba(23,34,59,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:4rem}
+body{margin:0;background:var(--paper) radial-gradient(circle at 1px 1px,rgba(23,34,59,.05) 1px,transparent 0) 0 0/22px 22px;color:var(--ink);font:16.5px/1.7 'Karla',sans-serif}
+h1,h2,h3{font-family:'Newsreader',serif;margin:0;line-height:1.2}p{margin:0 0 .9rem}
+.top{position:sticky;top:0;z-index:5;background:rgba(243,241,231,.96);border-bottom:1px solid var(--rule);padding:.6rem 1.1rem;font:italic 600 1rem 'Newsreader',serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 1.5rem 5rem}
+.hero{padding:2.5rem 0 1.5rem;text-align:center}.hero h1{font-size:2.8rem;font-style:italic;font-weight:500}.hero p{color:var(--soft)}
+.stamp{width:96px;height:96px;margin:0 auto 1.2rem;border:2px dashed var(--amber);border-radius:50%;display:grid;place-items:center;transform:rotate(-5deg);color:var(--deep);font:600 .75rem 'JetBrains Mono',monospace}
+.obj{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:1.2rem 1.4rem;margin:1rem 0;box-shadow:var(--sh)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;margin:1.5rem 0 2.2rem}
+.grid a{padding:.5rem;text-align:center;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--rule);border-radius:6px;font-size:.78rem;font-weight:700;line-height:1.25}
+.grid a:hover{border-color:var(--amber)}.grid b{display:block;color:var(--deep);font:.68rem 'JetBrains Mono',monospace}
+.trail{position:relative;padding-left:2.6rem}.trail:before{content:"";position:absolute;left:1.05rem;top:.4rem;bottom:.4rem;width:2px;background:repeating-linear-gradient(var(--rule) 0 6px,transparent 6px 11px)}
+.wp{position:relative;margin-bottom:3.2rem}.num{position:absolute;left:-2.6rem;top:0;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font:600 .85rem 'JetBrains Mono',monospace}
+.wp h2{font-size:1.65rem;margin-bottom:.3rem}.wp h3,.obj h3{font-size:1.2rem;margin:1.3rem 0 .4rem}.sub{color:var(--soft);font-style:italic}
+.note{border:1px solid var(--rule);border-radius:6px;padding:.8rem 1rem;margin:1rem 0;font-size:.94rem}.note b{display:block;font:600 .68rem 'JetBrains Mono',monospace;margin-bottom:.2rem}
+.tip{background:var(--wash);border-color:#e2c98a}.tip b{color:var(--deep)}.win{background:var(--gw);border-color:#b9d8c5}.win b{color:var(--green)}.watch{background:var(--rw);border-color:#e3b6ac}.watch b{color:var(--red)}
+.win-c{overflow:hidden;margin:1rem 0;border-radius:10px;background:#1e1e1e;box-shadow:var(--sh)}
+.hd{display:flex;align-items:center;padding:.45rem .75rem;background:#252526;border-bottom:1px solid #111}.hd span{color:#ccc;font:.72rem 'JetBrains Mono',monospace}
+.hd button{margin-left:auto;padding:.2rem .55rem;border:1px solid #555;border-radius:4px;background:0;color:#ddd;font:.68rem 'JetBrains Mono',monospace;cursor:pointer}
+.out{background:#111417}.out pre{color:#9fe0b4}
+pre{margin:0;padding:1rem 1.1rem;overflow-x:auto;color:#d4d4d4;font:.78rem/1.6 'JetBrains Mono',monospace;tab-size:4}
+table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}th,td{padding:.5rem .6rem;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}th{color:var(--soft);font:600 .68rem 'JetBrains Mono',monospace}
+code{background:#e9e5da;padding:.1rem .3rem;border-radius:3px;font:.85em 'JetBrains Mono',monospace}
+pre code{background:none;padding:0;border-radius:0;font:inherit;color:inherit}
+.task{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--amber);border-radius:6px;padding:.8rem 1.1rem;margin:1rem 0}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}.top{position:static}.hero h1{font-size:2.1rem}.trail{padding-left:2.1rem}.num{left:-2.1rem;width:1.8rem;height:1.8rem}}
+details{margin-top:.6rem}summary{cursor:pointer;color:var(--deep);font-weight:700}.ans{margin:.6rem 0 0}.task{margin:1.1rem 0}.task i{font:600 .72rem "JetBrains Mono",monospace;color:var(--soft)}.task code{display:inline-block;vertical-align:top;line-height:1.5}
+</style>
+</head>
+<body>
+
+<div class="top">Cambridge 9618 · Paper 2 Question Bank</div>
+<main class="wrap">
+
+<header class="hero">
+    <div class="stamp">9618<br>47 Qs</div>
+    <h1>Paper 2 Question Bank</h1>
+    <p>47 problem-solving and programming questions across 4 topics, with extended answers and exam tips.</p>
+</header>
+
+<section class="obj">
+    <h2>How to use this bank</h2>
+    <p>Covers AS topics 9–12 (Paper 2: Fundamental Problem-solving and Programming Skills). Code answers use Cambridge-style pseudocode (← for assignment, UPPERCASE keywords). Try each question on paper, then click <b>Show answer &amp; exam tip</b>. Extended explanations are provided for complex topics.</p>
+</section>
+
+<div class="grid" id="grid"></div>
+
+<div class="trail">
+
+<section class="wp" data-t="Algorithm design">
+    <h2>9 · Algorithm Design and Problem-Solving</h2>
+    <p class="sub">Decomposition, flowcharts, trace tables, searching, sorting and pseudocode.</p>
+
+    <div class="task"><b>Q1 <i>[2 marks]</i></b> Define abstraction and give a concrete example of its use in computer science.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Abstraction is the process of removing or hiding unnecessary detail to focus entirely on the essential features of a problem. Example: A tube map shows only stations and links, hiding real-world geographic distances and curves to make route planning easier.</p>
+        <div class="note tip"><b>EXAM TIP</b> Give a specific, concrete example (like map routing or filtering out irrelevant database fields) to secure the second mark.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q2 <i>[2 marks]</i></b> Explain decomposition and state two benefits of using it during software development.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Decomposition is breaking down a complex problem into smaller, manageable sub-problems. Benefits include: 1) Sub-problems are easier to solve and test independently. 2) Different modules can be developed in parallel by different team members.</p>
+        <div class="note tip"><b>EXAM TIP</b> Never just say "it makes it faster." Use specific terms like "parallel development" or "independent testing."</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q3 <i>[2 marks]</i></b> State the purpose of a structure chart and identify two features it displays.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">A structure chart models the modular top-down structure of a program. It displays the hierarchy of modules, the sequence of execution, and the data/control parameters passed between them.</p>
+        <div class="note tip"><b>EXAM TIP</b> Remember that a structure chart shows <i>modules and data flow</i>, not the step-by-step logic (which is what a flowchart is for).</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q4 <i>[2 marks]</i></b> State the standard flowchart symbols used for a decision and for an input/output operation.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Decision: Diamond shape. Input/Output: Parallelogram shape.</p>
+        <div class="note tip"><b>EXAM TIP</b> Process = Rectangle; Start/End (Terminal) = Rounded Rectangle.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q5 <i>[2 marks]</i></b> Distinguish an algorithm from a computer program.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">An algorithm is a logical, step-by-step sequence of instructions to solve a problem, independent of any specific programming language. A program is the concrete implementation of that algorithm written in a specific language's syntax (e.g., Python, Java) so a computer can execute it.</p>
+        <div class="note tip"><b>EXAM TIP</b> Use the phrase "language independent" when describing algorithms.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q6 <i>[3 marks]</i></b> State the output of the following pseudocode:
+        <script type="text/x-c" data-f="Trace Code">X <- 3
+Y <- 10
+WHILE Y > X DO
+    Y <- Y - X
+ENDWHILE
+OUTPUT Y</script>
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Output is 1. (Trace: Y starts at 10. Iteration 1: Y=7. Iteration 2: Y=4. Iteration 3: Y=1. The condition 1 > 3 is False, so the loop terminates).</p>
+        <div class="note tip"><b>EXAM TIP</b> Always draw a quick trace table in the margins. Method marks are often awarded even if the final output is miscalculated.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q7 <i>[2 marks]</i></b> State the output of the following pseudocode:
+        <script type="text/x-c" data-f="Trace Code">Total <- 0
+FOR N <- 1 TO 5
+    Total <- Total + (N * 2)
+NEXT N
+OUTPUT Total</script>
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Output is 30. (Calculates 2 × (1+2+3+4+5)).</p>
+        <div class="note tip"><b>EXAM TIP</b> Spot the mathematical pattern to save time, but check the first two iterations manually to confirm.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q8 <i>[3 marks]</i></b> Describe the procedural steps of a linear search, including its stopping conditions.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">1) Start at the first item (index 1) in the array. 2) Sequentially compare each item with the target value. 3) Stop when the target is found (setting a flag to TRUE) OR when the end of the array is reached without a match.</p>
+        <div class="note tip"><b>EXAM TIP</b> You must explicitly mention BOTH stopping conditions (found it, or reached the end) to get full marks.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q9 <i>[4 marks]</i></b> State the necessary pre-condition for a binary search and describe how the algorithm works.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Pre-condition: The data must be sorted. <br>Method: Calculate the midpoint index. Compare the target to the midpoint item. If they match, stop. If the target is greater, discard the lower half. If the target is smaller, discard the upper half. Repeat this halving process on the remaining items until the target is found or no items remain (Low > High).</p>
+        <div class="note tip"><b>EXAM TIP</b> "Sorted" is the most critical mark. Mention calculating the midpoint.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q10 <i>[1 mark]</i></b> A sorted list contains 100 items. State the maximum number of comparisons a binary search needs to find an item or determine it is not present.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">7 comparisons. (Because 2^7 = 128, which is the smallest power of 2 greater than or equal to 100).</p>
+        <div class="note tip"><b>EXAM TIP</b> Just find the smallest integer 'n' where 2^n >= total items.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q11 <i>[3 marks]</i></b> Describe how a bubble sort algorithm operates.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">It iterates through the array, comparing adjacent items. If they are in the wrong order, it swaps them using a temporary variable. It repeats these passes through the list until a complete pass is made where no swaps occur (indicating the list is sorted).</p>
+        <div class="note tip"><b>EXAM TIP</b> Mention the stopping condition explicitly: "A full pass with zero swaps".</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q12 <i>[2 marks]</i></b> Show the state of the list <code>5 3 8 1 4</code> after one complete pass of an ascending bubble sort.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans"><code>3 5 1 4 8</code></p>
+        <div class="note tip"><b>EXAM TIP</b> The largest value (8) will always "bubble" to the very end after the first pass.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q13 <i>[3 marks]</i></b> Describe the mechanics of an insertion sort algorithm.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">The array is conceptually divided into a sorted and an unsorted section. The algorithm takes the next item from the unsorted section and compares it against elements in the sorted section (moving right to left), shifting larger elements one space to the right, and then inserts the item into its correct sequential position.</p>
+        <div class="note tip"><b>EXAM TIP</b> Emphasize "shifting elements" rather than swapping them. Think of sorting playing cards in your hand.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q14 <i>[2 marks]</i></b> Explain one situation in which a linear search is preferable to a binary search.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">When the dataset is unsorted, or when the array is very small. Sorting an unsorted array just to perform a single binary search takes significantly more computational time than simply doing a linear search.</p>
+        <div class="note tip"><b>EXAM TIP</b> Binary search strictly requires sorted data. Mention the overhead time of sorting.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q15 <i>[3 marks]</i></b> Write pseudocode to input two numbers and output the larger of the two.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">INPUT A
+INPUT B
+IF A > B THEN
+    OUTPUT A
+ELSE
+    OUTPUT B
+ENDIF</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Keywords MUST be in UPPERCASE. Every IF must have a corresponding ENDIF.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q16 <i>[2 marks]</i></b> State the overall purpose of the following pseudocode:
+        <script type="text/x-c" data-f="Trace Code">Count <- 0
+FOR i <- 1 TO 10
+    IF Num[i] MOD 2 = 0 THEN
+        Count <- Count + 1
+    ENDIF
+NEXT i
+OUTPUT Count</script>
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">It counts and outputs the total number of even values present within the first 10 elements of the array 'Num'.</p>
+        <div class="note tip"><b>EXAM TIP</b> Describe the high-level business purpose, do not just translate the code line-by-line into English.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q17 <i>[2 marks]</i></b> Explain what is meant by 'stepwise refinement'.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">The process of repeatedly breaking down a complex problem into smaller, increasingly detailed sub-steps until each step is simple enough to be coded directly as a single subroutine or code block.</p>
+        <div class="note tip"><b>EXAM TIP</b> Link this term directly to 'decomposition'.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q18 <i>[2 marks]</i></b> State the purpose of an identifier table in algorithm design.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">It formally lists every variable and constant name used in a program, alongside its explicit data type and a brief description of its intended purpose.</p>
+        <div class="note tip"><b>EXAM TIP</b> Cambridge examiners look for three specific columns: Name, Data Type, and Purpose.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q19 <i>[3 marks]</i></b> Write pseudocode to continuously ask the user for a mark until a valid mark between 0 and 100 inclusive is entered.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">REPEAT
+    OUTPUT "Enter a mark (0-100): "
+    INPUT Mark
+UNTIL Mark >= 0 AND Mark <= 100</script></div>
+        <div class="note tip"><b>EXAM TIP</b> A REPEAT loop is guaranteed to run at least once, making it the perfect post-condition loop structure for input validation.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q20 <i>[2 marks]</i></b> The mathematical average of A, B, and C is written as <code>Avg <- A + B + C / 3</code>. Identify the logic error and write the corrected pseudocode.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Due to order of operations (BODMAS/PEMDAS), only C is divided by 3 before the additions occur. <br>Corrected: <code>Avg <- (A + B + C) / 3</code></p>
+        <div class="note tip"><b>EXAM TIP</b> Operator precedence is heavily tested: brackets, then ^, then * and /, then + and −.</div>
+        </details>
+    </div>
+</section>
+
+<section class="wp" data-t="Data types and structures">
+    <h2>10 · Data Types and Data Structures</h2>
+    <p class="sub">Types, arrays, records, files and abstract data types.</p>
+
+    <div class="task"><b>Q21 <i>[3 marks]</i></b> State the most suitable primitive data type for (a) a person's age, (b) a product price, (c) whether a seat is booked.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">(a) INTEGER; (b) REAL; (c) BOOLEAN.</p>
+        <div class="note tip"><b>EXAM TIP</b> Money values (with decimals) must be stored as REAL (or float/currency), never INTEGER.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q22 <i>[2 marks]</i></b> Distinguish between the CHAR and STRING data types.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">CHAR allocates memory for exactly one single character. STRING holds a sequence of characters of any length (including an empty string).</p>
+        <div class="note tip"><b>EXAM TIP</b> "A" could theoretically be a String or a Char, depending entirely on its formal declaration.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q23 <i>[2 marks]</i></b> Explain why a telephone number should be stored as a STRING rather than an INTEGER.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Telephone numbers often contain leading zeros which an INTEGER data type would automatically remove. Furthermore, phone numbers may include spaces or symbols (+, -) and are never used for mathematical calculations.</p>
+        <div class="note tip"><b>EXAM TIP</b> Golden rule: If you do not perform arithmetic on it, declare it as a STRING (e.g., ID numbers, credit card numbers).</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q24 <i>[2 marks]</i></b> Define an array and state one advantage of using one in a program.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">An array is a static data structure holding a fixed number of elements of the SAME data type under a single identifier, accessed via an index. Advantage: Prevents the need to declare hundreds of separate variables for related data.</p>
+        <div class="note tip"><b>EXAM TIP</b> You must mention "same data type" and "accessed via index" for the full definition mark.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q25 <i>[1 mark]</i></b> Write the pseudocode statement to declare an array named <code>Scores</code> of 30 integers, indexed from 1 to 30.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">DECLARE Scores : ARRAY[1:30] OF INTEGER</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Array bounds in Cambridge pseudocode always use a colon: [lower:upper].</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q26 <i>[2 marks]</i></b> Write a pseudocode block to iterate through the <code>Scores</code> array (1 to 30) and initialize every element to 0.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">FOR i <- 1 TO 30
+    Scores[i] <- 0
+NEXT i</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Loop bounds must strictly match the declared array bounds.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q27 <i>[4 marks]</i></b> Write a pseudocode block to find and output the highest value currently stored in the <code>Scores</code> array.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">DECLARE Highest : INTEGER
+Highest <- Scores[1]
+FOR i <- 2 TO 30
+    IF Scores[i] > Highest THEN
+        Highest <- Scores[i]
+    ENDIF
+NEXT i
+OUTPUT "Highest score: ", Highest</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Initialize the maximum variable with the FIRST element of the array (`Scores[1]`), not 0, so the algorithm still works if the array contains only negative numbers.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q28 <i>[2 marks]</i></b> Write the pseudocode to declare a 2D array <code>Grid</code> of CHAR with 5 rows (1 to 5) and 8 columns (1 to 8). State the total number of elements.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">DECLARE Grid : ARRAY[1:5, 1:8] OF CHAR</script></div>
+        <p class="ans">Total elements: 40.</p>
+        <div class="note tip"><b>EXAM TIP</b> Structure is always ARRAY[row_start:row_end, col_start:col_end].</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q29 <i>[3 marks]</i></b> Write the pseudocode to define a custom record type <code>Student</code> containing a Name (STRING) and Age (INTEGER).
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">TYPE Student
+    DECLARE Name : STRING
+    DECLARE Age : INTEGER
+ENDTYPE</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Records group different data types together, whereas arrays can only hold a single data type.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q30 <i>[2 marks]</i></b> Declare a variable <code>Pupil</code> of the custom type <code>Student</code> and assign its Age attribute to 15.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">DECLARE Pupil : Student
+Pupil.Age <- 15</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Use dot notation (`variable.field`) to access and assign fields inside a record.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q31 <i>[2 marks]</i></b> Define an enumerated data type <code>Season</code> containing the four seasons.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">TYPE Season = (Spring, Summer, Autumn, Winter)</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Enumerated values are internal constants. They have NO quotes and are not strings.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q32 <i>[4 marks]</i></b> Write pseudocode to sequentially read and output every line of a text file named <code>data.txt</code>.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">DECLARE Line : STRING
+OPENFILE "data.txt" FOR READ
+WHILE NOT EOF("data.txt")
+    READFILE "data.txt", Line
+    OUTPUT Line
+ENDWHILE
+CLOSEFILE "data.txt"</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Open, Loop (EOF), Read, Close. Never forget to include the `CLOSEFILE` command.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q33 <i>[3 marks]</i></b> Write pseudocode to write the string "Hello" to a new text file named <code>out.txt</code>.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">OPENFILE "out.txt" FOR WRITE
+WRITEFILE "out.txt", "Hello"
+CLOSEFILE "out.txt"</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Use Mode WRITE, command WRITEFILE, then CLOSEFILE.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q34 <i>[3 marks]</i></b> Describe a stack data structure and name its two primary operations.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">A stack is a Last-In, First-Out (LIFO) abstract data structure managed by a TopPointer. PUSH adds an item to the top of the stack, and POP removes the item from the top of the stack.</p>
+        <div class="note tip"><b>EXAM TIP</b> Mention the TopPointer and Underflow/Overflow checks.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q35 <i>[3 marks]</i></b> Describe a queue data structure and name its two primary operations.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">A queue is a First-In, First-Out (FIFO) abstract data structure managed by a FrontPointer and a RearPointer. ENQUEUE adds an item to the rear of the queue, and DEQUEUE removes an item from the front.</p>
+        <div class="note tip"><b>EXAM TIP</b> Emphasize FIFO vs LIFO to distinguish a queue from a stack.</div>
+        </details>
+    </div>
+    
+    <div class="task"><b>Q36 <i>[3 marks]</i></b> Explain the pointer manipulation required to insert a new node between existing nodes B and C in a linked list.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">1) Allocate a new node from the Free List and populate its data. 2) Set the new node's pointer to point to node C (the current pointer stored in node B). 3) Change node B's pointer to point to the new node.</p>
+        <div class="note tip"><b>EXAM TIP</b> Order is critical. If you overwrite B's pointer first, you completely lose the memory address of C!</div>
+        </details>
+    </div>
+</section>
+
+<section class="wp" data-t="Programming">
+    <h2>11 · Programming</h2>
+    <p class="sub">Constructs, procedures, functions, strings and file handling in pseudocode.</p>
+
+    <div class="task"><b>Q37 <i>[3 marks]</i></b> Write a pseudocode conditional block to output "Pass" if <code>Mark</code> is at least 50, otherwise output "Fail".
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">IF Mark >= 50 THEN
+    OUTPUT "Pass"
+ELSE
+    OUTPUT "Fail"
+ENDIF</script></div>
+        <div class="note tip"><b>EXAM TIP</b> "At least" translates to >= (greater than or equal to).</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q38 <i>[4 marks]</i></b> Write a CASE statement for a variable <code>Day</code> that outputs "Weekday" for 1–5, "Weekend" for 6 or 7, otherwise outputs "Invalid".
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">CASE OF Day
+    1 TO 5 : OUTPUT "Weekday"
+    6, 7 : OUTPUT "Weekend"
+    OTHERWISE OUTPUT "Invalid"
+ENDCASE</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Never forget the OTHERWISE catch-all and the ENDCASE keyword.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q39 <i>[4 marks]</i></b> Write pseudocode using a WHILE loop to calculate the total sum of numbers entered by a user. The loop should terminate when −1 is entered. The −1 should NOT be included in the sum.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">Total <- 0
+OUTPUT "Enter number: "
+INPUT N
+WHILE N <> -1 DO
+    Total <- Total + N
+    OUTPUT "Enter number: "
+    INPUT N
+ENDWHILE
+OUTPUT "Total is: ", Total</script></div>
+        <div class="note tip"><b>EXAM TIP</b> Sentinel loops require a "prime read" BEFORE the loop begins, and a subsequent read at the very end of the loop body.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q40 <i>[4 marks]</i></b> Write pseudocode to reverse a string variable named <code>Word</code> and output the reversed result.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">Rev <- ""
+FOR i <- LENGTH(Word) TO 1 STEP -1
+    Rev <- Rev & MID(Word, i, 1)
+NEXT i
+OUTPUT Rev</script></div>
+        <div class="note tip"><b>EXAM TIP</b> You must explicitly declare the backward step using `STEP -1`. The ampersand `&` is the standard string concatenation operator.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q41 <i>[3 marks]</i></b> Explain the fundamental difference in memory handling when passing parameters BYVAL compared to BYREF.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans"><b>BYVAL (By Value):</b> A local copy of the data argument is passed to the subroutine. Any modifications made inside the subroutine are discarded upon return and do not affect the original variable.<br><b>BYREF (By Reference):</b> The memory address of the original variable is passed. The subroutine accesses and modifies the original memory location, so changes persist after the subroutine ends.</p>
+        <div class="note tip"><b>EXAM TIP</b> Use the exact terminology: "Local copy" for BYVAL and "Memory address" for BYREF.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q42 <i>[5 marks]</i></b> Write pseudocode to perform a linear search in an array <code>Names[1:20]</code> for a variable <code>Target</code>. Output its position, or "Not found".
+        <details><summary>Show answer &amp; exam tip</summary>
+        <div class="ans"><script type="text/x-c" data-f="Pseudocode">Found <- FALSE
+i <- 1
+WHILE (i <= 20) AND (Found = FALSE)
+    IF Names[i] = Target THEN
+        Found <- TRUE
+    ELSE
+        i <- i + 1
+    ENDIF
+ENDWHILE
+
+IF Found = TRUE THEN
+    OUTPUT "Found at position: ", i
+ELSE
+    OUTPUT "Not found"
+ENDIF</script></div>
+        <div class="note tip"><b>EXAM TIP</b> A standard FOR loop is heavily penalized here because it does not stop efficiently once the target is found. Always use a WHILE loop with a boolean flag.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q43 <i>[2 marks]</i></b> Distinguish a syntax error from a logic error.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans"><b>Syntax Error:</b> Occurs when the code violates the grammatical rules of the programming language (e.g., a missing parenthesis), preventing compilation.<br><b>Logic Error:</b> Occurs when the program successfully compiles and runs, but produces an incorrect or unexpected output due to a flaw in the algorithm design (e.g., using a + instead of a -).</p>
+        <div class="note tip"><b>EXAM TIP</b> Syntax errors are caught by the translator; logic errors are caught by testing (dry runs).</div>
+        </details>
+    </div>
+</section>
+
+<section class="wp" data-t="Software development">
+    <h2>12 · Software Development</h2>
+    <p class="sub">Life cycle, methodologies, testing and maintenance.</p>
+
+    <div class="task"><b>Q44 <i>[3 marks]</i></b> Describe the Waterfall lifecycle model and identify one major drawback.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">The Waterfall model features distinct, sequential stages (Analysis, Design, Coding, Testing, Maintenance). Each stage must be fully completed and signed off before the next begins. Drawback: It is highly rigid—if client requirements change during the coding phase, it is extremely difficult and expensive to go back and alter the design, and no working prototypes are available until the very end.</p>
+        <div class="note tip"><b>EXAM TIP</b> Contrast its rigidity with the flexibility of Iterative/RAD development.</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q45 <i>[2 marks]</i></b> Distinguish Alpha testing from Beta testing.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">Alpha testing is conducted in-house by the company's own developers and dedicated QA testers before release. Beta testing is conducted by a selected group of real external users on their own hardware in real-world environments.</p>
+        <div class="note tip"><b>EXAM TIP</b> Alpha is internal (simulated environment); Beta is external (live environment).</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q46 <i>[2 marks]</i></b> Distinguish Black-box testing from White-box testing.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans"><b>Black-box:</b> Tests the functionality and inputs against expected outputs without any knowledge of the internal code structure. <br><b>White-box:</b> The tester has full access to the source code and designs test cases to verify all internal logical paths, conditions, and data flows.</p>
+        <div class="note tip"><b>EXAM TIP</b> Black = can't see inside (testing specification). White = can see inside (testing structural logic).</div>
+        </details>
+    </div>
+
+    <div class="task"><b>Q47 <i>[2 marks]</i></b> State what a 'stub' is in the context of program testing.
+        <details><summary>Show answer &amp; exam tip</summary>
+        <p class="ans">A stub is a skeleton or dummy module that stands in for an unfinished subroutine. It usually returns a hardcoded, fixed value so that higher-level modules can be tested before the entire system is complete.</p>
+        <div class="note tip"><b>EXAM TIP</b> Used extensively in Top-Down integration testing.</div>
+        </details>
+    </div>
+</section>
+
+</div>
+
+<section style="text-align:center;color:var(--soft)">
+    <h2 style="font-style:italic">Keep practising</h2>
+    <p>Write your pseudocode on paper first, then check the spoiler and compare against the mark points.</p>
+</section>
+</main>
+
+<script>
+// Secure JavaScript Parser: Replaces <script type="text/x-c"> with beautiful code windows
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+document.querySelectorAll('script[type="text/x-c"]').forEach(s => {
+    const w = document.createElement('div');
+    w.className = 'win-c';
+    // Provide a fallback title if data-f is missing to avoid "undefined" errors
+    const title = s.dataset.f ? s.dataset.f : 'Pseudocode';
+    
+    w.innerHTML = '<div class="hd"><span>' + title + '</span><button>Copy</button></div><pre><code>' + esc(s.textContent.replace(/^\n/,'')) + '</code></pre>';
+    
+    w.querySelector('button').onclick = e => {
+        if(navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(s.textContent.replace(/^\n/,''));
+            e.target.textContent = 'Done';
+            setTimeout(() => e.target.textContent = 'Copy', 1200);
+        }
+    };
+    s.replaceWith(w);
+});
+
+// Grid auto-generation
+const g = document.getElementById('grid');
+document.querySelectorAll('.wp').forEach((s, i) => {
+    s.id = 't' + (i + 1);
+    const n = document.createElement('span');
+    n.className = 'num';
+    n.textContent = i + 1;
+    s.prepend(n);
+    
+    const a = document.createElement('a');
+    a.href = '#t' + (i + 1);
+    a.innerHTML = '<b>' + String(i + 1).padStart(2, '0') + '</b>' + s.dataset.t;
+    g.appendChild(a);
+});
+</script>
+</body>
+</html>
